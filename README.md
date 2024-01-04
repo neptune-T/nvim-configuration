@@ -13,7 +13,7 @@
 
 ![](img/1.png)
 
-![](/home/pimg/2.png)
+![](img/2.png)
 
 
 
