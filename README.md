@@ -5,15 +5,15 @@
 **Reference video：**[bilibili](https://www.bilibili.com/video/BV1ds4y1P7Rs/?spm_id_from=333.880.my_history.page.click)
 
 **Screenshot of the Installation Page:**
-![imge](/home/plote/.config/nvim/img/install.png)
+![imge](img/install.png)
 
 
 
 **Finished product pictures**
 
-![](/home/plote/.config/nvim/img/1.png)
+![](img/1.png)
 
-![](/home/plote/.config/nvim/img/2.png)
+![](/home/pimg/2.png)
 
 
 
