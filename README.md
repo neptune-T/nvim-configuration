@@ -5,15 +5,15 @@
 **Reference video：**[bilibili](https://www.bilibili.com/video/BV1ds4y1P7Rs/?spm_id_from=333.880.my_history.page.click)
 
 **Screenshot of the Installation Page:**
-![imge](install.png)
+![imge](/home/plote/.config/nvim/img/install.png)
 
 
 
 **Finished product pictures**
 
-![image-20240104123550157](/home/plote/.config/Typora/typora-user-images/image-20240104123550157.png)
+![](/home/plote/.config/nvim/img/1.png)
 
-![](/home/plote/.config/Typora/typora-user-images/image-20240104122040387.png)
+![](/home/plote/.config/nvim/img/2.png)
 
 
 
