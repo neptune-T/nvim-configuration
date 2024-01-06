@@ -1,15 +1,77 @@
 ## Lazyvim
 
-**LazyVim doc:** [here](https://www.lazyvim.org/) <br/>
+### **LazyVim doc:** [here](https://www.lazyvim.org/) 
 
-**Reference video：**[bilibili](https://www.bilibili.com/video/BV1ds4y1P7Rs/?spm_id_from=333.880.my_history.page.click)
+### **Reference video：**[bilibili](https://www.bilibili.com/video/BV1ds4y1P7Rs/?spm_id_from=333.880.my_history.page.click)
 
-**Screenshot of the Installation Page:**
+### **Screenshot of the Installation Page:**
+
 ![imge](img/install.png)
 
+### **The direct code is too messy, I rearranged it in a wave, and it hasn't been finished yet**
+
+### **code tree**
+
+```
+
+├──  lua
+│  ├──  config
+│  │  ├──  autocmds.lua
+│  │  ├──  init.lua
+│  │  ├──  keymaps.lua
+│  │  ├──  lazy.lua
+│  │  └──  options.lua
+│  ├──  lsp
+│  │  ├──  ccls
+│  │  │  └──  ccls.lua
+│  │  ├──  clangd.lua
+│  │  ├──  cssls.lua
+│  │  ├──  gopls.lua
+│  │  ├──  html.lua
+│  │  ├──  init.lua
+│  │  ├──  jsonls.lua
+│  │  ├──  lspconfig.lua
+│  │  ├──  lua_ls.lua
+│  │  ├──  mason.lua
+│  │  ├──  null-ls.lua
+│  │  ├──  pyright.lua
+│  │  ├──  sqls.lua
+│  │  ├──  trouble.lua
+│  │  ├──  tsserver.lua
+│  │  ├──  vuels.lua
+│  │  └──  zeta_note.lua
+│  └──  plote
+│     ├──  basic
+│     │  ├──  colorscheme.lua
+│     │  ├──  keymaps.lua
+│     │  └──  options.lua
+│     ├──  plugins
+│     │  ├──  async.lua
+│     │  ├──  autopairs.lua
+│     │  ├──  comment.lua
+│     │  ├──  example.lua
+│     │  ├──  hop.lua
+│     │  ├──  lspsaga.lua
+│     │  ├──  lualine.lua
+│     │  ├──  nvim-cmp.lua
+│     │  ├──  nvim-lsp-installer.lua
+│     │  ├──  nvim-lspconfig.lua
+│     │  ├──  nvim-tree.lua
+│     │  ├──  setup.lua
+│     │  ├──  telescope.lua
+│     │  ├──  toggleterm.lua
+│     │  └──  treesitter.lua
+│     ├──  init.lua
+│     └──  packer_compiled.lua
+├──  .neoconf.json
+├──  init.lua
+├──  lazy-lock.json
+├──  lazyvim.json
+```
 
 
-**Finished product pictures**
+
+### **Finished product pictures**
 
 ![](img/1.png)
 
