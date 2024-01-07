@@ -3,10 +3,10 @@ require('plote.basic.keymaps')
 require('plote.basic.options')
 
 
-require('plote.plugins.autopairs')
-require('plote.plugins.comment')
+require('plote.plugins.autopairs').setup()
+require('plote.plugins.comment').setup()
 require('plote.plugins.example')
-require('plote.plugins.hop')
+require('plote.plugins.hop').setup()
 require('plote.plugins.lspsaga')
 require('plote.plugins.lualine')
 require('plote.plugins.nvim-cmp')
