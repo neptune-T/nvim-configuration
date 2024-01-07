@@ -40,3 +40,6 @@ keymap.set("n", "<leader>hww", ":HopWordMW<cr>")
 keymap.set("n", "<leader>hc", ":HopChar1<cr>")
 keymap.set("n", "<leader>hcw", ":HopChar1MW<cr>")
 
+-- nvim -tree
+keymap.set("n", "<Space>e", ":NvimTreeToggle<CR>")
+
