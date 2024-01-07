@@ -1,7 +1,13 @@
--- 配置 lua-ls 插件
-require'lspconfig'.sumneko_lua.setup {
-  cmd = { '/path/to/lua-language-server' }, -- Lua 语言服务器的可执行文件路径
-  on_attach = require'lsp'.common_on_attach, -- 共享的 LSP 配置
+-- 定义一个基本的 on_attach 函数
+local function on_attach(client, bufnr)
+  -- 这里可以定义当 LSP 服务器连接后的行为，比如键绑定
+  -- 例如：vim.api.nvim_buf_set_keymap(bufnr, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', {noremap = true, silent = true})
+end
+
+-- 配置 Lua 语言服务器
+require'lspconfig'.lua_ls.setup {
+  cmd = { '/path/to/lua-language-server' }, -- Lua 语言服务器的可执行文件路径，需要替换为实际路径
+  on_attach = on_attach,
   settings = {
     Lua = {
       runtime = {
@@ -21,11 +27,11 @@ require'lspconfig'.sumneko_lua.setup {
   },
 }
 
--- 配置 LSP 插件通用的设置
+-- 配置 LSP 完成项图标
 local lsp = require'lspconfig'
 local protocol = require'vim.lsp.protocol'
 
-lsp.protocol.CompletionItemKind = {
+protocol.CompletionItemKind = {
   '', -- 文本
   'ƒ', -- 函数
   '', -- 模块
@@ -36,6 +42,5 @@ lsp.protocol.CompletionItemKind = {
   '', -- 参考
 }
 
--- 可选：配置自动触发 LSP 功能
-vim.cmd[[autocmd BufEnter *.lua lua require'completion'.on_attach()]]
+-- 移除了与 completion 模块相关的部分
 

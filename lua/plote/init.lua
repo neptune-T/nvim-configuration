@@ -2,7 +2,7 @@ require('plote.basic.colorscheme')
 require('plote.basic.keymaps')
 require('plote.basic.options')
 
-require('plote.plugins.async')
+
 require('plote.plugins.autopairs')
 require('plote.plugins.comment')
 require('plote.plugins.example')
