@@ -1,5 +1,5 @@
-local status_ok, nvimtree = pcall(require, "nvim-tree")
-if not status_ok then
+local setup, nvimtree = pcall(require, "nvim-tree")
+if not setup then
   return
 end
 
@@ -12,6 +12,15 @@ vim.cmd([[ highlight NvimTreeIndentMarker guifg=#3FC5FF ]])
 
 -- configure nvim-tree
 nvimtree.setup({
+  view = {
+    mappings = {
+      list = {
+        { key = "u", action = "dir_up" },
+        { key = "v", action = "vsplit" },
+      },
+    },
+  },
+  -- change folder arrow icons
   renderer = {
     icons = {
       glyphs = {
@@ -22,6 +31,9 @@ nvimtree.setup({
       },
     },
   },
+  -- disable window_picker for
+  -- explorer to work well with
+  -- window splits
   actions = {
     open_file = {
       window_picker = {
@@ -29,5 +41,7 @@ nvimtree.setup({
       },
     },
   },
+  -- 	git = {
+  -- 		ignore = false,
+  -- 	},
 })
-
