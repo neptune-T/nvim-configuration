@@ -1,5 +1,9 @@
 ## Lazyvim
 
+
+
+Clone the file and download it locally, move it to the `.config` folder, and change the folder name to `nvim`
+
 ### **LazyVim doc:** [here](https://www.lazyvim.org/) 
 
 ### **Reference video：**[bilibili](https://www.bilibili.com/video/BV1ds4y1P7Rs/?spm_id_from=333.880.my_history.page.click)
