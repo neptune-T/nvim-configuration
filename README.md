@@ -13,80 +13,88 @@ Clone the file and download it locally, move it to the `.config` folder, and cha
 ![imge](img/install.png)
 
 ### **code tree**
+```
+.
+├── README.md
+├── config
+│   ├── autocmds.lua
+│   ├── keymaps.lua
+│   ├── lazy.lua
+│   └── options.lua
+├── img
+│   ├── 1.png
+│   ├── 2.png
+│   └── install.png
+├── init.lua
+├── lazy-lock.json
+├── lazyvim.json
+├── lua
+│   ├── config
+│   │   ├── Comment.lua
+│   │   ├── autocmds.lua
+│   │   ├── colorscheme.lua
+│   │   ├── init.lua
+│   │   ├── keybinds.lua
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   ├── lualine.lua
+│   │   ├── nvim-cmp.lua
+│   │   ├── nvim-lsp-installer.lua
+│   │   ├── nvim-lspconfig.lua
+│   │   ├── nvim-treesitter.lua
+│   │   ├── options.lua
+│   │   ├── plugins.lua
+│   │   ├── settings.lua
+│   │   └── toggleterm.lua
+│   ├── lsp
+│   │   ├── ccls
+│   │   │   └── ccls.lua
+│   │   ├── ccls.lua
+│   │   ├── clangd.lua
+│   │   ├── cssls.lua
+│   │   ├── gopls.lua
+│   │   ├── html.lua
+│   │   ├── init.lua
+│   │   ├── jsonls.lua
+│   │   ├── lspconfig.lua
+│   │   ├── lua_ls.lua
+│   │   ├── mason.lua
+│   │   ├── pyright.lua
+│   │   ├── sqls.lua
+│   │   ├── sumneko_lua.lua
+│   │   ├── trouble.lua
+│   │   ├── tsserver.lua
+│   │   ├── vuels.lua
+│   │   └── zeta_note.lua
+│   ├── plote
+│   │   ├── init.lua
+│   │   ├── packer_compiled.lua
+│   │   └── plugins
+│   │       ├── ALE.lua
+│   │       ├── comment.lua
+│   │       ├── example.lua
+│   │       ├── gitsigns.lua
+│   │       ├── hop.lua
+│   │       ├── lspconfig.lua
+│   │       ├── neotree.lua
+│   │       ├── nvim-cmp.lua
+│   │       ├── nvim-lspconfig.lua
+│   │       ├── nvim-tree.lua
+│   │       ├── nvimcmp.lua
+│   │       ├── other.lua
+│   │       ├── rust-tool.lua
+│   │       ├── saga.lua
+│   │       ├── setup.lua
+│   │       ├── tabnine.lua
+│   │       ├── telescope.lua
+│   │       ├── toggleterm.lua
+│   │       ├── treesitter.lua
+│   │       └── vimtex.lua
+│   └── plugins
+│       └── example.lua
+└── stylua.toml
 
 ```
-──  lua
-│  ├──  config
-│  │  ├──  autocmds.lua
-│  │  ├──  colorscheme.lua
-│  │  ├──  Comment.lua
-│  │  ├──  init.lua
-│  │  ├──  keybinds.lua
-│  │  ├──  keymaps.lua
-│  │  ├──  lazy.lua
-│  │  ├──  lualine.lua
-│  │  ├──  nvim-cmp.lua
-│  │  ├──  nvim-lsp-installer.lua
-│  │  ├──  nvim-lspconfig.lua
-│  │  ├──  nvim-treesitter.lua
-│  │  ├──  options.lua
-│  │  ├──  plugins.lua
-│  │  ├──  settings.lua
-│  │  └──  toggleterm.lua
-│  ├──  lsp
-│  │  ├──  ccls
-│  │  │  └──  ccls.lua
-│  │  ├──  ccls.lua
-│  │  ├──  clangd.lua
-│  │  ├──  cssls.lua
-│  │  ├──  gopls.lua
-│  │  ├──  html.lua
-│  │  ├──  init.lua
-│  │  ├──  jsonls.lua
-│  │  ├──  lspconfig.lua
-│  │  ├──  lua_ls.lua
-│  │  ├──  mason.lua
-│  │  ├──  pyright.lua
-│  │  ├──  sqls.lua
-│  │  ├──  sumneko_lua.lua
-│  │  ├──  trouble.lua
-│  │  ├──  tsserver.lua
-│  │  ├──  vuels.lua
-│  │  └──  zeta_note.lua
-│  ├──  plote
-│  │  ├──  plugins
-│  │  │  ├──  comment.lua
-│  │  │  ├──  example.lua
-│  │  │  ├──  gitsigns.lua
-│  │  │  ├──  hop.lua
-│  │  │  ├──  lspconfig.lua
-│  │  │  ├──  neotree.lua
-│  │  │  ├──  nvim-cmp.lua
-│  │  │  ├──  nvim-lspconfig.lua
-│  │  │  ├──  nvim-tree.lua
-│  │  │  ├──  nvimcmp.lua
-│  │  │  ├──  other.lua
-│  │  │  ├──  rust-tool.lua
-│  │  │  ├──  saga.lua
-│  │  │  ├──  setup.lua
-│  │  │  ├──  tabnine.lua
-│  │  │  ├──  telescope.lua
-│  │  │  ├──  toggleterm.lua
-│  │  │  └──  treesitter.lua
-│  │  ├──  init.lua
-│  │  └──  packer_compiled.lua
-│  └──  plugins
-│     └──  example.lua
-├──  .gitignore
-├──  .neoconf.json
-├──  init.lua
-├──  lazy-lock.json
-├──  lazyvim.json
-├──  README.md
-└──  stylua.toml
-```
-
-
 
 ### **Finished product pictures**
 
